@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3307/db_dorm</property>
+        <property name="checkoutTimeout">30000</property>
+    </default-config>
+    <name-config name="ss">
+    </name-config>
+</c3p0-config>

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg') format('svg');
+  }
+  *{
+      margin: 0;
+      border: 0;
+      padding: 0;
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 36px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .sidebar{
+      float: left;
+      width: 1000px;
+      margin-left: 0px;
+      height: 720px;
+      background-color: gray;
+      overflow: hidden;
+      transition: 0.8s all;
+  }
+  .sider{
+    float: left;
+      margin-left: 0;
+      width:0px;
+      height: 720px;
+      overflow: hidden;
+  }
+  .sidebar ul{
+      margin: 0;
+      padding: 0;
+  }
+  .sidebar ul li{
+      list-style: none;
+  }
+  .sidebar ul li a{
+      text-decoration: none;
+      color: honeydew;
+      height: 80px;
+      width: 100%;
+      font-size: 40px;
+      line-height: 80px;
+      text-align: center;
+      display: block;
+  }
+  .sidebar ul li a:hover{
+      background-color: mediumpurple;
+  }
+  .btn{
+      float: left;
+      padding: 0 10px;
+      font-size: 40px;
+      text-decoration: none;
+      color: gray;
+      cursor: pointer;
+  }
+  .btn::before{
+      content: '';
+  }
+  .btnc::before{
+      content: '';
+}
